@@ -1,5 +1,4 @@
-import { useInput } from '@/hooks/useInput';
-import '@/App.css';
+import { useInput } from '@/hooks';
 
 const UseInput = () => {
   // const maxLen = (value: string) => value.length <= 10;

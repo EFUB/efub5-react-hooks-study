@@ -1,5 +1,6 @@
 import '@/App.css';
-import { useTabs } from '@/hooks/useTabs';
+import { useTabs } from '@/hooks';
+
 const content = [
   {
     tab: 'Section 1',
