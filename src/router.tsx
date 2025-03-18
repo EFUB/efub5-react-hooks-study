@@ -3,12 +3,14 @@ import App from './App';
 import UseInput from './pages/01-useState/UseInput';
 import UseTabs from './pages/01-useState/UseTabs';
 import UseTitle from './pages/02-useEffect/UseTitle';
+import UseClick from './pages/02-useEffect/UseClick';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/create-useInput', element: <UseInput /> },
   { path: '/create-useTabs', element: <UseTabs /> },
   { path: '/create-useTitle', element: <UseTitle /> },
+  { path: '/create-useClick', element: <UseClick /> },
 ]);
 
 export default router;

@@ -15,6 +15,9 @@ const App = () => {
         <li>
           <Link to='/create-useTitle'>useTitle</Link>
         </li>
+        <li>
+          <Link to='/create-useClick'>useClick</Link>
+        </li>
       </ol>
     </>
   );
