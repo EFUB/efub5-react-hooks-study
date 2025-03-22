@@ -18,6 +18,12 @@ const App = () => {
         <li>
           <Link to='/create-useClick'>useClick</Link>
         </li>
+        <li>
+          <Link to='/create-useConfirm'>useConfirm</Link>
+        </li>
+        <li>
+          <Link to='/create-usePreventLeave'>usePreventLeave</Link>
+        </li>
       </ol>
     </>
   );

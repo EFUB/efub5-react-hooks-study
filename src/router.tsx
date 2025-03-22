@@ -4,6 +4,8 @@ import UseInput from './pages/01-useState/UseInput';
 import UseTabs from './pages/01-useState/UseTabs';
 import UseTitle from './pages/02-useEffect/UseTitle';
 import UseClick from './pages/02-useEffect/UseClick';
+import UseConfirm from './pages/02-useEffect/UseConfirm';
+import UsePreventLeave from './pages/02-useEffect/UsePreventLeave';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -11,6 +13,8 @@ const router = createBrowserRouter([
   { path: '/create-useTabs', element: <UseTabs /> },
   { path: '/create-useTitle', element: <UseTitle /> },
   { path: '/create-useClick', element: <UseClick /> },
+  { path: '/create-useConfirm', element: <UseConfirm /> },
+  { path: '/create-usePreventLeave', element: <UsePreventLeave /> },
 ]);
 
 export default router;

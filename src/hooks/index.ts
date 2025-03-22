@@ -3,3 +3,4 @@ export { useTabs } from '@/hooks/useTabs';
 export { useTitle } from '@/hooks/useTitle';
 export { useClick } from '@/hooks/useClick';
 export { useConfirm } from '@/hooks/useConfirm';
+export { usePreventLeave } from '@/hooks/usePreventLeave';
