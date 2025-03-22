@@ -24,6 +24,9 @@ const App = () => {
         <li>
           <Link to='/create-usePreventLeave'>usePreventLeave</Link>
         </li>
+        <li>
+          <Link to='/create-useBeforeLeave'>useBeforeLeave</Link>
+        </li>
       </ol>
     </>
   );
