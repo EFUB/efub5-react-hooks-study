@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 const useTabs = (initialTab, allTabs) => {
   const [currentIndex, setCurrentIndex] = useState(initialTab);
   // React Hooks는 모든 렌더링에서 항상 같은 순서로 호출 되어야 함
@@ -18,5 +16,3 @@ const useTabs = (initialTab, allTabs) => {
     changeItem: setCurrentIndex,
   };
 };
-
-export default useTabs;
