@@ -27,6 +27,9 @@ const App = () => {
         <li>
           <Link to='/create-useBeforeLeave'>useBeforeLeave</Link>
         </li>
+        <li>
+          <Link to='/create-useFadeIn'>useFadeIn</Link>
+        </li>
       </ol>
     </>
   );

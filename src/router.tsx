@@ -7,6 +7,7 @@ import UseClick from './pages/02-useEffect/UseClick';
 import UseConfirm from './pages/02-useEffect/UseConfirm';
 import UsePreventLeave from './pages/02-useEffect/UsePreventLeave';
 import UseBeforeLeave from './pages/02-useEffect/UseBeforeLeave';
+import UseFadeIn from './pages/02-useEffect/UseFadeIn';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
   { path: '/create-useConfirm', element: <UseConfirm /> },
   { path: '/create-usePreventLeave', element: <UsePreventLeave /> },
   { path: '/create-useBeforeLeave', element: <UseBeforeLeave /> },
+  { path: '/create-useFadeIn', element: <UseFadeIn /> },
 ]);
 
 export default router;
