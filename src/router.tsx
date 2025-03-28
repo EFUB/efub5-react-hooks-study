@@ -9,6 +9,8 @@ import UsePreventLeave from './pages/02-useEffect/UsePreventLeave';
 import UseBeforeLeave from './pages/02-useEffect/UseBeforeLeave';
 import UseFadeIn from './pages/02-useEffect/UseFadeIn';
 import UseNetwork from './pages/02-useEffect/UseNetwork';
+import UseScroll from './pages/02-useEffect/UseScroll';
+import UseFullscreen from './pages/02-useEffect/UseFullScreen';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -21,6 +23,8 @@ const router = createBrowserRouter([
   { path: '/create-useBeforeLeave', element: <UseBeforeLeave /> },
   { path: '/create-useFadeIn', element: <UseFadeIn /> },
   { path: '/create-useNetwork', element: <UseNetwork /> },
+  { path: '/create-useScroll', element: <UseScroll /> },
+  { path: '/create-useFullscreen', element: <UseFullscreen /> },
 ]);
 
 export default router;
