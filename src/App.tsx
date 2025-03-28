@@ -30,6 +30,9 @@ const App = () => {
         <li>
           <Link to='/create-useFadeIn'>useFadeIn</Link>
         </li>
+        <li>
+          <Link to='/create-useNetwork'>useNetwork</Link>
+        </li>
       </ol>
     </>
   );
