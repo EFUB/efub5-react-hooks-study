@@ -27,6 +27,18 @@ const App = () => {
         <li>
           <Link to='/create-useBeforeLeave'>useBeforeLeave</Link>
         </li>
+        <li>
+          <Link to='/create-useFadeIn'>useFadeIn</Link>
+        </li>
+        <li>
+          <Link to='/create-useNetwork'>useNetwork</Link>
+        </li>
+        <li>
+          <Link to='/create-useScroll'>useScroll</Link>
+        </li>
+        <li>
+          <Link to='/create-useFullscreen'>useFullscreen</Link>
+        </li>
       </ol>
     </>
   );
