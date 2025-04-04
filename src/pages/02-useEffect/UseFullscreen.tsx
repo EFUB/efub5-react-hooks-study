@@ -1,4 +1,4 @@
-import { useFullscreen } from '@/hooks/useFullScreen';
+import { useFullscreen } from '@/hooks/useFullscreen';
 
 const UseFullscreen = () => {
   const onFulls = (isFull: boolean) => {
