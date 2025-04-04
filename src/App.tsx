@@ -39,6 +39,9 @@ const App = () => {
         <li>
           <Link to='/create-useFullscreen'>useFullscreen</Link>
         </li>
+        <li>
+          <Link to='/create-useNotification'>useNotification</Link>
+        </li>
       </ol>
     </>
   );
