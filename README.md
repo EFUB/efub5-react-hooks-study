@@ -11,8 +11,8 @@
 - [x] usePreventLeave
 - [x] usePageLeave
 - [x] useFadeIn
-- [ ] useFullscreen
-- [ ] useNetwork
-- [ ] useNotification
-- [ ] useScroll
-- [ ] useAxios
+- [x] useFullscreen
+- [x] useNetwork
+- [x] useNotification
+- [x] useScroll
+- [x] useAxios
