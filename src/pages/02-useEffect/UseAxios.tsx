@@ -9,8 +9,7 @@ interface AccountDetailResponse {
 
 const UseAxios = () => {
   const { loading, data, error, refetch } = useAxios<AccountDetailResponse>({
-    url: 'http://efub-seminar.p-e.kr:8080/accounts/34',
-    method: 'GET',
+    url: '',
   });
 
   console.log(
