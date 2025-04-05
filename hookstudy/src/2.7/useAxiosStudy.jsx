@@ -44,6 +44,8 @@ export default function useAxiosStudy() {
   console.log(`${(loading, error, JSON.stringify(data))}`);
   return (
     <div>
+      <h2>{loading && <p>loading</p>}</h2>
+      <h1>{data && data.status}</h1>
       <button onClick={refetch}>Reftech</button>
     </div>
   );
