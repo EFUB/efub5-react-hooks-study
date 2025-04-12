@@ -10,7 +10,9 @@ import UseBeforeLeave from './pages/02-useEffect/UseBeforeLeave';
 import UseFadeIn from './pages/02-useEffect/UseFadeIn';
 import UseNetwork from './pages/02-useEffect/UseNetwork';
 import UseScroll from './pages/02-useEffect/UseScroll';
-import UseFullscreen from './pages/02-useEffect/UseFullScreen';
+import UseFullscreen from './pages/02-useEffect/UseFullscreen';
+import UseNotification from './pages/02-useEffect/UseNotification';
+import UseAxios from './pages/02-useEffect/UseAxios';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -25,6 +27,8 @@ const router = createBrowserRouter([
   { path: '/create-useNetwork', element: <UseNetwork /> },
   { path: '/create-useScroll', element: <UseScroll /> },
   { path: '/create-useFullscreen', element: <UseFullscreen /> },
+  { path: '/create-useNotification', element: <UseNotification /> },
+  { path: '/create-useAxios', element: <UseAxios /> },
 ]);
 
 export default router;
